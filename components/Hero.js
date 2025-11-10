@@ -56,13 +56,13 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#contact"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-primary-700 hover:bg-primary-800 text-white font-bold px-8 py-4 rounded-lg shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-primary-900"
             >
               Request B2B Partnership
             </a>
             <a
               href="#features"
-              className="bg-white hover:bg-gray-50 text-primary-600 font-semibold px-8 py-4 rounded-lg shadow-lg border-2 border-primary-500 transition-all duration-300 transform hover:scale-105"
+              className="bg-white hover:bg-gray-50 text-primary-700 font-bold px-8 py-4 rounded-lg shadow-xl border-3 border-primary-700 transition-all duration-300 transform hover:scale-105"
             >
               Learn More
             </a>
