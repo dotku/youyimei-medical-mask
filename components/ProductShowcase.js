@@ -35,23 +35,23 @@ export default function ProductShowcase() {
 
               {/* Small thumbnail gallery */}
               <div className="grid grid-cols-3 gap-3 mt-4">
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1556228841-a92c4c05078e?w=200&h=200&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=200&h=200&fit=crop&q=80"
                     alt="Product packaging"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=200&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=200&h=200&fit=crop&q=80"
                     alt="Product detail"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&h=200&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=200&h=200&fit=crop&q=80"
                     alt="Product application"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />

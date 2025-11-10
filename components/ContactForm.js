@@ -259,7 +259,7 @@ export default function ContactForm() {
 
               <button
                 type="submit"
-                className="w-full bg-primary-700 hover:bg-primary-800 text-white font-bold px-8 py-4 rounded-lg shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-primary-900"
+                className="w-full bg-gray-900 hover:bg-black text-white font-extrabold px-10 py-5 rounded-xl shadow-2xl transition-all duration-300 transform hover:scale-105 border-4 border-gray-700 text-lg tracking-wide uppercase"
               >
                 Submit Partnership Request
               </button>

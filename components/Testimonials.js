@@ -98,23 +98,23 @@ export default function Testimonials() {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 sm:p-12 text-white shadow-2xl">
+        <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-2xl p-8 sm:p-12 text-white shadow-2xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-5xl font-bold mb-2">100%</p>
-              <p className="text-primary-100">Positive Reviews</p>
+              <p className="text-5xl font-extrabold mb-3 drop-shadow-lg">100%</p>
+              <p className="text-white/95 font-semibold text-base">Positive Reviews</p>
             </div>
             <div>
-              <p className="text-5xl font-bold mb-2">10,000+</p>
-              <p className="text-primary-100">Happy Customers</p>
+              <p className="text-5xl font-extrabold mb-3 drop-shadow-lg">10,000+</p>
+              <p className="text-white/95 font-semibold text-base">Happy Customers</p>
             </div>
             <div>
-              <p className="text-5xl font-bold mb-2">95%</p>
-              <p className="text-primary-100">Repeat Purchase Rate</p>
+              <p className="text-5xl font-extrabold mb-3 drop-shadow-lg">95%</p>
+              <p className="text-white/95 font-semibold text-base">Repeat Purchase Rate</p>
             </div>
             <div>
-              <p className="text-5xl font-bold mb-2">Medical</p>
-              <p className="text-primary-100">Grade Certified</p>
+              <p className="text-5xl font-extrabold mb-3 drop-shadow-lg">Medical</p>
+              <p className="text-white/95 font-semibold text-base">Grade Certified</p>
             </div>
           </div>
         </div>

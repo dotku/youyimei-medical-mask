@@ -91,44 +91,44 @@ export default function Features() {
         </div>
 
         {/* Additional Benefits */}
-        <div className="mt-16 bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 sm:p-12 text-white shadow-2xl">
+        <div className="mt-16 bg-gradient-to-r from-gray-800 to-gray-900 rounded-2xl p-8 sm:p-12 text-white shadow-2xl">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl font-bold mb-6 text-center">B2B Partnership Benefits</h3>
+            <h3 className="text-3xl font-bold mb-8 text-center drop-shadow-lg">B2B Partnership Benefits</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                <svg className="w-7 h-7 flex-shrink-0 mt-1 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <h4 className="font-semibold mb-1">Competitive Wholesale Pricing</h4>
-                  <p className="text-primary-100 text-sm">Volume discounts and flexible payment terms</p>
+                  <h4 className="font-bold mb-2 text-lg drop-shadow-sm">Competitive Wholesale Pricing</h4>
+                  <p className="text-white/95 text-sm font-medium">Volume discounts and flexible payment terms</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                <svg className="w-7 h-7 flex-shrink-0 mt-1 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <h4 className="font-semibold mb-1">Marketing Support</h4>
-                  <p className="text-primary-100 text-sm">Product images, descriptions, and promotional materials</p>
+                  <h4 className="font-bold mb-2 text-lg drop-shadow-sm">Marketing Support</h4>
+                  <p className="text-white/95 text-sm font-medium">Product images, descriptions, and promotional materials</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                <svg className="w-7 h-7 flex-shrink-0 mt-1 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <h4 className="font-semibold mb-1">Fast Shipping</h4>
-                  <p className="text-primary-100 text-sm">Reliable logistics and tracking for all orders</p>
+                  <h4 className="font-bold mb-2 text-lg drop-shadow-sm">Fast Shipping</h4>
+                  <p className="text-white/95 text-sm font-medium">Reliable logistics and tracking for all orders</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                <svg className="w-7 h-7 flex-shrink-0 mt-1 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <h4 className="font-semibold mb-1">Quality Guarantee</h4>
-                  <p className="text-primary-100 text-sm">100% authentic products with quality assurance</p>
+                  <h4 className="font-bold mb-2 text-lg drop-shadow-sm">Quality Guarantee</h4>
+                  <p className="text-white/95 text-sm font-medium">100% authentic products with quality assurance</p>
                 </div>
               </div>
             </div>
