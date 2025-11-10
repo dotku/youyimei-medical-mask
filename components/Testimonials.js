@@ -139,36 +139,36 @@ export default function Testimonials() {
 
           {/* Before/After Visual Gallery */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Transformation Gallery</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Product Gallery</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=300&fit=crop&q=80"
-                  alt="Sheet mask product"
+                  src="/images/SaveTik.co_7449682472507428122_2.jpeg"
+                  alt="YOUYIMEI Sheet mask product"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Sheet Mask Treatment</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">YOUYIMEI Sheet Mask</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=300&fit=crop&q=80"
-                  alt="Sheet mask application"
+                  src="/images/SaveTik.co_7449682472507428122_3.jpeg"
+                  alt="YOUYIMEI Product showcase"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Professional Application</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Professional Quality</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=300&fit=crop&q=80"
-                  alt="Medical grade sheet mask"
+                  src="/images/SaveTik.co_7449682472507428122_4.jpeg"
+                  alt="YOUYIMEI Medical grade"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Medical Grade Quality</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Medical Grade Certified</p>
                 </div>
               </div>
             </div>

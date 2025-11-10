@@ -19,7 +19,7 @@ export default function ProductShowcase() {
               <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative">
                 {/* Main Product Image - Sheet Mask */}
                 <img
-                  src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop&q=80"
+                  src="/images/SaveTik.co_7449682472507428122_1.jpeg"
                   alt="YOUYIMEI Medical Cold Compress Sheet Mask"
                   className="w-full h-full object-cover"
                 />
@@ -37,22 +37,22 @@ export default function ProductShowcase() {
               <div className="grid grid-cols-3 gap-3 mt-4">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=200&h=200&fit=crop&q=80"
-                    alt="Sheet mask packaging"
+                    src="/images/SaveTik.co_7449682472507428122_2.jpeg"
+                    alt="YOUYIMEI Sheet mask packaging"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200&h=200&fit=crop&q=80"
-                    alt="Sheet mask application"
+                    src="/images/SaveTik.co_7449682472507428122_3.jpeg"
+                    alt="YOUYIMEI Sheet mask application"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=200&h=200&fit=crop&q=80"
-                    alt="Facial treatment with sheet mask"
+                    src="/images/SaveTik.co_7449682472507428122_4.jpeg"
+                    alt="YOUYIMEI Product details"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
