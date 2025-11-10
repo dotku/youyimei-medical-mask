@@ -23,6 +23,7 @@ export default function Hero() {
         <div className="text-center">
           {/* Logo/Brand */}
           <div className="mb-8">
+            <p className="text-xl sm:text-2xl font-semibold text-gray-700 mb-3">佰氏健康集团 · Baishi Health Group</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-4">
               YOUYIMEI
               <span className="block text-3xl sm:text-4xl lg:text-5xl mt-2 text-primary-600">悠伊美</span>
