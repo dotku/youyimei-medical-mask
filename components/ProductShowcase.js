@@ -19,7 +19,7 @@ export default function ProductShowcase() {
               <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative">
                 {/* Main Product Image - Using placeholder */}
                 <img
-                  src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&h=600&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=600&fit=crop&q=80"
                   alt="YOUYIMEI Medical Cold Compress Mask"
                   className="w-full h-full object-cover"
                 />
@@ -37,22 +37,22 @@ export default function ProductShowcase() {
               <div className="grid grid-cols-3 gap-3 mt-4">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=200&h=200&fit=crop&q=80"
-                    alt="Product packaging"
+                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200&h=200&fit=crop&q=80"
+                    alt="Facial mask application"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=200&h=200&fit=crop&q=80"
-                    alt="Product detail"
+                    src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=200&fit=crop&q=80"
+                    alt="Skincare treatment"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=200&h=200&fit=crop&q=80"
-                    alt="Product application"
+                    src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&h=200&fit=crop&q=80"
+                    alt="Face mask product"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>

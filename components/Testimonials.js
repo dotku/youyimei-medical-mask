@@ -143,32 +143,32 @@ export default function Testimonials() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=300&fit=crop&q=80"
-                  alt="Skincare results"
+                  src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=300&fit=crop&q=80"
+                  alt="Face mask application"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Hydrated & Glowing Skin</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Deep Hydration Treatment</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=400&h=300&fit=crop&q=80"
-                  alt="Clear skin results"
+                  src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=300&fit=crop&q=80"
+                  alt="Mask therapy session"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Reduced Acne & Marks</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Soothing Skin Care</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=400&h=300&fit=crop&q=80"
-                  alt="Rejuvenated skin"
+                  src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop&q=80"
+                  alt="Professional treatment"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
-                  <p className="text-white font-bold text-lg drop-shadow-lg">Radiant & Youthful</p>
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Medical Grade Results</p>
                 </div>
               </div>
             </div>
