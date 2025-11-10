@@ -4,7 +4,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-5">
         <img
-          src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1920&h=1080&fit=crop&q=80"
+          src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1920&h=1080&fit=crop&q=80"
           alt="Background"
           className="w-full h-full object-cover"
         />
@@ -33,10 +33,10 @@ export default function Hero() {
 
           {/* Main Heading */}
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 drop-shadow-sm">
-            Medical Cold Compress Mask
+            Medical Cold Compress Sheet Mask
           </h2>
           <p className="text-xl sm:text-2xl text-gray-800 font-semibold mb-4 drop-shadow-sm">
-            医用冷敷型面膜
+            医用冷敷型片状面膜
           </p>
 
           {/* Tagline */}

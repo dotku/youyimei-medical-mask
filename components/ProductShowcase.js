@@ -4,10 +4,10 @@ export default function ProductShowcase() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Premium Medical Cold Compress
+            Premium Medical Cold Compress Sheet Mask
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            高性价比医用冷敷面膜 • Professional skincare solution trusted by medical professionals
+            高性价比医用冷敷型片状面膜 • Professional sheet mask solution trusted by medical professionals
           </p>
         </div>
 
@@ -17,10 +17,10 @@ export default function ProductShowcase() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary-200 to-primary-100 rounded-2xl blur-xl opacity-50"></div>
             <div className="relative bg-gradient-to-br from-primary-50 via-white to-primary-100 rounded-2xl p-8 shadow-2xl">
               <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative">
-                {/* Main Product Image - Using placeholder */}
+                {/* Main Product Image - Sheet Mask */}
                 <img
-                  src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=600&fit=crop&q=80"
-                  alt="YOUYIMEI Medical Cold Compress Mask"
+                  src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop&q=80"
+                  alt="YOUYIMEI Medical Cold Compress Sheet Mask"
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay badge */}
@@ -29,7 +29,7 @@ export default function ProductShowcase() {
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
                   <p className="text-white text-xl font-bold drop-shadow-lg">YOUYIMEI 悠伊美</p>
-                  <p className="text-white text-sm font-medium drop-shadow-md">Medical Cold Compress Mask</p>
+                  <p className="text-white text-sm font-medium drop-shadow-md">Medical Cold Compress Sheet Mask</p>
                 </div>
               </div>
 
@@ -37,22 +37,22 @@ export default function ProductShowcase() {
               <div className="grid grid-cols-3 gap-3 mt-4">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
+                    src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=200&h=200&fit=crop&q=80"
+                    alt="Sheet mask packaging"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
+                  <img
                     src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200&h=200&fit=crop&q=80"
-                    alt="Facial mask application"
+                    alt="Sheet mask application"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=200&fit=crop&q=80"
-                    alt="Skincare treatment"
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
-                  <img
-                    src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&h=200&fit=crop&q=80"
-                    alt="Face mask product"
+                    src="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=200&h=200&fit=crop&q=80"
+                    alt="Facial treatment with sheet mask"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
