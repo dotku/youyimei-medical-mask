@@ -41,8 +41,8 @@ export default function ContactForm() {
               Start Your B2B Partnership
             </h2>
             <div className="mb-6">
-              <p className="text-lg font-semibold text-gray-800 mb-1">佰氏健康集团 · Baishi Health Group</p>
-              <p className="text-2xl font-bold text-primary-600">YOUYIMEI 悠伊美</p>
+              <p className="text-3xl font-bold text-primary-600">YOUYIMEI 悠伊美</p>
+              <p className="text-lg text-gray-700 mt-2">Medical Cold Compress Sheet Mask</p>
             </div>
             <p className="text-xl text-gray-600 mb-8">
               Join hundreds of retail stores and import companies offering YOUYIMEI products
