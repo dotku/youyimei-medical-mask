@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function ProductShowcase() {
   return (
     <section id="product" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
@@ -16,46 +18,58 @@ export default function ProductShowcase() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-primary-200 to-primary-100 rounded-2xl blur-xl opacity-50"></div>
             <div className="relative bg-gradient-to-br from-primary-50 via-white to-primary-100 rounded-2xl p-8 shadow-2xl">
-              <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative">
-                {/* Main Product Image - Sheet Mask */}
-                <img
-                  src="/images/SaveTik.co_7449682472507428122_1.jpeg"
-                  alt="YOUYIMEI Medical Cold Compress Sheet Mask"
-                  className="w-full h-full object-cover"
-                />
-                {/* Overlay badge */}
-                <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-full text-sm font-bold shadow-xl border-2 border-yellow-600">
-                  ⭐ 外贸款
+              <Link
+                href="/product"
+                className="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary-500 rounded-xl group"
+                aria-label="View detailed information about YOUYIMEI medical mask"
+              >
+                <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative transition-transform duration-300 group-hover:-translate-y-1">
+                  {/* Main Product Image - Sheet Mask */}
+                  <img
+                    src="/images/O1CN01HpJ6l71yV47CeP7mL_!!1815456583.jpg_.avif"
+                    alt="YOUYIMEI Medical Cold Compress Sheet Mask"
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Overlay badge */}
+                  <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-full text-sm font-bold shadow-xl border-2 border-yellow-600">
+                    ⭐ 外贸款
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
+                    <p className="text-white text-xl font-bold drop-shadow-lg">YOUYIMEI 悠伊美</p>
+                    <p className="text-white text-sm font-medium drop-shadow-md">Medical Cold Compress Sheet Mask</p>
+                  </div>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
-                  <p className="text-white text-xl font-bold drop-shadow-lg">YOUYIMEI 悠伊美</p>
-                  <p className="text-white text-sm font-medium drop-shadow-md">Medical Cold Compress Sheet Mask</p>
-                </div>
-              </div>
+              </Link>
 
               {/* Small thumbnail gallery */}
               <div className="grid grid-cols-3 gap-3 mt-4">
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
-                  <img
-                    src="/images/SaveTik.co_7449682472507428122_2.jpeg"
-                    alt="YOUYIMEI Sheet mask packaging"
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
-                  <img
-                    src="/images/SaveTik.co_7449682472507428122_3.jpeg"
-                    alt="YOUYIMEI Sheet mask application"
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
-                <div className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100">
-                  <img
-                    src="/images/SaveTik.co_7449682472507428122_4.jpeg"
-                    alt="YOUYIMEI Product details"
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
+                {[
+                  {
+                    src: '/images/O1CN01dBcSQ42JF8OE9Qthm_!!0-item_pic.jpg_.avif',
+                    alt: 'YOUYIMEI Sheet mask packaging',
+                  },
+                  {
+                    src: '/images/226209f211906870.jpg',
+                    alt: 'YOUYIMEI Product details',
+                  },
+                  {
+                    src: '/images/8fad62bd53f8ab83.jpg',
+                    alt: 'YOUYIMEI Sheet mask benefits',
+                  },
+                ].map(({ src, alt }) => (
+                  <Link
+                    key={src}
+                    href="/product"
+                    className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+                    aria-label="Open product detail page"
+                  >
+                    <img
+                      src={src}
+                      alt={alt}
+                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                    />
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
