@@ -31,18 +31,18 @@ export default function Hero() {
           </div>
 
           {/* Main Heading */}
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 drop-shadow-sm">
             Medical Cold Compress Mask
           </h2>
-          <p className="text-xl sm:text-2xl text-gray-700 mb-4">
+          <p className="text-xl sm:text-2xl text-gray-800 font-semibold mb-4 drop-shadow-sm">
             医用冷敷型面膜
           </p>
 
           {/* Tagline */}
-          <p className="text-2xl sm:text-3xl font-semibold text-primary-600 mb-8">
+          <p className="text-2xl sm:text-3xl font-bold text-primary-700 mb-8 drop-shadow-sm">
             深层护理 重现水光肌
           </p>
-          <p className="text-lg sm:text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-700 font-medium mb-12 max-w-3xl mx-auto drop-shadow-sm">
             Soothing and Moisturizing • Professional-Grade Skincare Solution
           </p>
 

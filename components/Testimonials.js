@@ -147,8 +147,8 @@ export default function Testimonials() {
                   alt="Skincare results"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
-                  <p className="text-white font-semibold">Hydrated & Glowing Skin</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Hydrated & Glowing Skin</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
@@ -157,8 +157,8 @@ export default function Testimonials() {
                   alt="Clear skin results"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
-                  <p className="text-white font-semibold">Reduced Acne & Marks</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Reduced Acne & Marks</p>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
@@ -167,8 +167,8 @@ export default function Testimonials() {
                   alt="Rejuvenated skin"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
-                  <p className="text-white font-semibold">Radiant & Youthful</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end p-4">
+                  <p className="text-white font-bold text-lg drop-shadow-lg">Radiant & Youthful</p>
                 </div>
               </div>
             </div>

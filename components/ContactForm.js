@@ -114,7 +114,7 @@ export default function ContactForm() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Partnership Information</h3>
 
             {submitted && (
-              <div className="mb-6 bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg">
+              <div className="mb-6 bg-green-100 border-2 border-green-600 text-green-800 px-4 py-3 rounded-lg font-semibold">
                 Thank you! We will contact you within 24 hours.
               </div>
             )}
@@ -259,12 +259,12 @@ export default function ContactForm() {
 
               <button
                 type="submit"
-                className="w-full bg-primary-500 hover:bg-primary-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="w-full bg-primary-700 hover:bg-primary-800 text-white font-bold px-8 py-4 rounded-lg shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-primary-900"
               >
                 Submit Partnership Request
               </button>
 
-              <p className="text-sm text-gray-500 text-center">
+              <p className="text-sm text-gray-600 text-center font-medium">
                 We respect your privacy and will never share your information
               </p>
             </form>

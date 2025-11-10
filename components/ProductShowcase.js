@@ -24,12 +24,12 @@ export default function ProductShowcase() {
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay badge */}
-                <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-full text-sm font-bold shadow-xl border-2 border-yellow-600">
                   ⭐ 外贸款
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                  <p className="text-white text-xl font-bold">YOUYIMEI 悠伊美</p>
-                  <p className="text-white/90 text-sm">Medical Cold Compress Mask</p>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent p-6">
+                  <p className="text-white text-xl font-bold drop-shadow-lg">YOUYIMEI 悠伊美</p>
+                  <p className="text-white text-sm font-medium drop-shadow-md">Medical Cold Compress Mask</p>
                 </div>
               </div>
 
