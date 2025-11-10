@@ -12,20 +12,50 @@ export default function ProductShowcase() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Product Image Placeholder */}
-          <div className="bg-gradient-to-br from-primary-100 to-primary-50 rounded-2xl p-12 shadow-2xl">
-            <div className="aspect-square bg-white rounded-xl shadow-lg flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-48 h-48 mx-auto bg-gradient-to-br from-primary-500 to-primary-400 rounded-lg shadow-xl mb-6 flex items-center justify-center">
-                  <div className="text-white">
-                    <svg className="w-32 h-32 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                    </svg>
-                  </div>
+          {/* Product Image */}
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-200 to-primary-100 rounded-2xl blur-xl opacity-50"></div>
+            <div className="relative bg-gradient-to-br from-primary-50 via-white to-primary-100 rounded-2xl p-8 shadow-2xl">
+              <div className="aspect-square bg-white rounded-xl shadow-lg overflow-hidden relative">
+                {/* Main Product Image - Using placeholder */}
+                <img
+                  src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&h=600&fit=crop&q=80"
+                  alt="YOUYIMEI Medical Cold Compress Mask"
+                  className="w-full h-full object-cover"
+                />
+                {/* Overlay badge */}
+                <div className="absolute top-4 right-4 bg-yellow-400 text-yellow-900 px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  ⭐ 外贸款
                 </div>
-                <p className="text-2xl font-bold text-primary-600">YOUYIMEI</p>
-                <p className="text-lg text-gray-600">Medical Cold Compress</p>
-                <p className="text-sm text-gray-500 mt-2">医用冷敷型</p>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                  <p className="text-white text-xl font-bold">YOUYIMEI 悠伊美</p>
+                  <p className="text-white/90 text-sm">Medical Cold Compress Mask</p>
+                </div>
+              </div>
+
+              {/* Small thumbnail gallery */}
+              <div className="grid grid-cols-3 gap-3 mt-4">
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                  <img
+                    src="https://images.unsplash.com/photo-1556228841-a92c4c05078e?w=200&h=200&fit=crop&q=80"
+                    alt="Product packaging"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                  <img
+                    src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=200&fit=crop&q=80"
+                    alt="Product detail"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden shadow-md">
+                  <img
+                    src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&h=200&fit=crop&q=80"
+                    alt="Product application"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
               </div>
             </div>
           </div>

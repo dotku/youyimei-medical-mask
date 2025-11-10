@@ -1,10 +1,23 @@
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-primary-50 via-white to-primary-100 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 opacity-5">
+        <img
+          src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1920&h=1080&fit=crop&q=80"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(to_right,#00ada810_1px,transparent_1px),linear-gradient(to_bottom,#00ada810_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
       </div>
+
+      {/* Decorative circles */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary-200 rounded-full blur-3xl opacity-20"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary-300 rounded-full blur-3xl opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">

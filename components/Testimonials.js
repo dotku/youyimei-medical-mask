@@ -122,7 +122,7 @@ export default function Testimonials() {
         {/* Customer Success Stories */}
         <div className="mt-16 text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">Real Results from Real People</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-primary-50 rounded-xl p-6">
               <div className="text-4xl font-bold text-primary-600 mb-2">Day 1-3</div>
               <p className="text-gray-700">Skin feels more hydrated and soothed. Reduced redness and irritation.</p>
@@ -134,6 +134,43 @@ export default function Testimonials() {
             <div className="bg-primary-50 rounded-xl p-6">
               <div className="text-4xl font-bold text-primary-600 mb-2">Month 1+</div>
               <p className="text-gray-700">Dramatic transformation. Glowing, healthy skin with lasting results.</p>
+            </div>
+          </div>
+
+          {/* Before/After Visual Gallery */}
+          <div className="mt-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Transformation Gallery</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img
+                  src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=300&fit=crop&q=80"
+                  alt="Skincare results"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Hydrated & Glowing Skin</p>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img
+                  src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=400&h=300&fit=crop&q=80"
+                  alt="Clear skin results"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Reduced Acne & Marks</p>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img
+                  src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=400&h=300&fit=crop&q=80"
+                  alt="Rejuvenated skin"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Radiant & Youthful</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
